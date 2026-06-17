@@ -12,3 +12,13 @@
 .navigation__link:focus {
   opacity: 1;
 }
+
+.navigation {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    display: flex;
+  }
+}

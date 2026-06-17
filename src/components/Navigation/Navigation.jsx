@@ -1,15 +1,16 @@
+import React from 'react';
 import './Navigation.css';
 
 function Navigation() {
   return (
     <nav className="navigation">
-      <a className="navigation__link" href="#about">
+      <a href="#about" className="navigation__link">
         About
       </a>
-      <a className="navigation__link" href="#services">
+      <a href="#services" className="navigation__link">
         Services
       </a>
-      <a className="navigation__link" href="#contact">
+      <a href="#contact" className="navigation__link">
         Contact
       </a>
     </nav>
