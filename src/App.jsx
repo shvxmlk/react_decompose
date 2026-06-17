@@ -11,7 +11,6 @@ function App() {
       <Header>
         <Navigation />
       </Header>
-
       <Welcome />
       <Article />
     </main>
